@@ -2,6 +2,7 @@ package com.qa.hubspot.util;
 
 public class Constants {
 	
+	//storing all the constants
 	
 	public final static String LOGIN_PAGE_TITLE = "CRMPRO - CRM software for customer relationship management, sales, and support.";
 	public final static String HOME_PAGE_TITLE = "CRMPRO";
