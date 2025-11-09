@@ -1,5 +1,6 @@
 package com.qa.hubspot.util;
 
+<<<<<<< HEAD
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -52,4 +53,8 @@ public class ExcelUtil {
 		}
 		return new Object[0][0];
     }
+=======
+public class ExcelUtil {
+
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 }

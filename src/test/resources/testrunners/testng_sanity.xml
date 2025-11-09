@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Hub Spot Test Sanity Suite" verbose="3">
+<<<<<<< HEAD
 <listeners>
     <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
         <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
 
 </listeners>
+=======
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
     <test name="hub spot Sanity Test">
         <classes>
         <class name="com.qa.hubspot.tests.LoginTest"/>

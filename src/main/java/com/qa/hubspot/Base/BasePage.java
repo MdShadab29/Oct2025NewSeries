@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 package com.qa.hubspot.Base;
 
 import java.io.FileInputStream;
@@ -109,10 +112,13 @@ public class BasePage {
     		System.out.println("Some exception occured while closing the browser");
     	}
     	}
+<<<<<<< HEAD
 
 	public static WebDriver getDriver() {
 		// TODO Auto-generated method stub
 		return null;
 	}
+=======
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 	
 }

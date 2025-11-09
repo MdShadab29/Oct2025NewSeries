@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //package com.qa.hubspot.pages;
 //
 //import java.util.Properties;
@@ -95,3 +96,26 @@ public class LoginPageTest {
     }
 }
 
+=======
+package com.qa.hubspot.pages;
+
+import org.testng.annotations.Test;
+
+public class LoginPageTest {
+
+  @Test
+  public void LoginPageTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void doLoginTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void getLoginPageTitleTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+}
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121

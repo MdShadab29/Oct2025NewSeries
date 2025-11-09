@@ -1,5 +1,6 @@
 package com.qa.hubspot.pages;
 
+<<<<<<< HEAD
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -8,6 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+=======
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 import com.qa.hubspot.Base.BasePage;
 import com.qa.hubspot.util.Constants;
 import com.qa.hubspot.util.ElementUtil;
@@ -52,6 +58,7 @@ public class HomePage extends BasePage {
 //		return driver.findElement(accountName).isDisplayed();	
 	}
 	public String getLoggedInAccountName() {
+<<<<<<< HEAD
 		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		    wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("mainpanel"));
 //		driver.switchTo().frame("mainpanel");
@@ -60,4 +67,11 @@ public class HomePage extends BasePage {
 	}
 	
 	
+=======
+		driver.switchTo().frame("mainpanel");
+		return elementUtil.doGetText(accountName);
+//		return driver.findElement(accountName).getText();	
+	}
+	
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 }

@@ -1,5 +1,6 @@
 package com.qa.hubspot.pages;
 
+<<<<<<< HEAD
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -7,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+=======
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 import com.qa.hubspot.Base.BasePage;
 import com.qa.hubspot.util.Constants;
 import com.qa.hubspot.util.ElementUtil;
@@ -35,12 +40,15 @@ public class LoginPage extends BasePage {
 	elementUtil = new ElementUtil(driver);
 	}
 	// page actions:
+<<<<<<< HEAD
 //	public String getLoginPageTitle() {
 //	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //	    wait.until(ExpectedConditions.titleContains("Login"));
 //	    return driver.getTitle();
 //	}
 
+=======
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 	public String getLoginPageTitle() {	
 		return elementUtil.waitForPageTitle(Constants.LOGIN_PAGE_TITLE);	
 	}	

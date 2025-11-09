@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.qa.hubspot.tests.ContactsPageTest">
         <methods>
           <include name="createNewContactTest" invocation-numbers="4"/>
@@ -10,6 +11,15 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+=======
+      <class name="com.qa.hubspot.tests.LoginPFTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginPFTest -->
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

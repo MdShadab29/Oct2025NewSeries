@@ -120,11 +120,14 @@ import com.qa.hubspot.Base.BasePage;
 	        // go back to default content to avoid frame issues in following steps
 	        driver.switchTo().defaultContent();
 	    }
+<<<<<<< HEAD
 	    public String getContactsPageTitle() {
 	        elementUtil.waitForFrameAndSwitchToIt("mainpanel", 10);
 	        return driver.getTitle();
 	    }
 
+=======
+>>>>>>> 1dfbd1a81516041eee93ffb8d6df81db4c3df121
 	}
 
 	
